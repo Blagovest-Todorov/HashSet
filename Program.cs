@@ -7,9 +7,9 @@ namespace HashSet
     {
         static void Main(string[] args)
         {
-            HashSet<string> names = new HashSet<string>();
+            HashSet<string> names = new HashSet<string>(); // HashSet is dynamic collection keeping only unigue Elemets, not duplicate, very fast, used in keshing, DB
 
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());     // hashSet got bit similar with List collection 
 
             for (int i = 0; i < n; i++)
             {
